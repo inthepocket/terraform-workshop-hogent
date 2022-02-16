@@ -37,6 +37,8 @@ resource "google_compute_instance" "webserver" {
     }
   }
 
+  metadata_startup_script = file("${path.module}/templates/startup-script.tftpl")
+
   network_interface {
     subnetwork = google_compute_subnetwork.subnet.self_link
 
