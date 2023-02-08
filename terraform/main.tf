@@ -33,7 +33,7 @@ resource "google_compute_instance" "webserver" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-10"
+      image = "debian-cloud/debian-11"
     }
   }
 

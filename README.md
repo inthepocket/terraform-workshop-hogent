@@ -1,6 +1,6 @@
 # Terraform workshop HoGent
 
-This repository contains the IaC (infrastructure as code) for the Terraform workshop for HoGent during the Tech & Trend days (February 17, 2022).
+This repository contains the IaC (infrastructure as code) for the Terraform workshop for HoGent during the Tech & Trend days (February 16, 2023).
 
 ## Goal of this workshop
 
@@ -21,7 +21,7 @@ The goal of this workshop is to deploy an immutable (*not possible to change aft
 
 ### Google Cloud authentication
 
-1. export the JSON key file for authentication with Google Cloud (https://cloud.google.com/docs/authentication/getting-started#windows)
+1. export the JSON key file for authentication with Google Cloud (https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/getting_started#adding-credentials)
 
     ```bash
     export GOOGLE_APPLICATION_CREDENTIALS={path_to_key_file}
