@@ -1,8 +1,9 @@
 terraform {
+  required_version = "~> 1.5"
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~>4.0"
+      version = "~>5.0"
     }
   }
 }
@@ -10,5 +11,5 @@ terraform {
 provider "google" {
   region  = "europe-west1"
   zone    = "europe-west1-b"
-  project = "terraform-workshop-hogent"
+  project = "itp-hogent-tech-days"
 }
