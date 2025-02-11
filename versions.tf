@@ -3,13 +3,13 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~>5.0"
+      version = "~>6.20.0"
     }
   }
 }
 
 provider "google" {
   region  = "europe-west1"
-  zone    = "europe-west1-b"
-  project = "itp-hogent-tech-days"
+  zone    = "europe-west1-c"
+  project = "itp-hogent-tech-days-2025"
 }

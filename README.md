@@ -1,10 +1,10 @@
 # Terraform workshop HoGent
 
-This repository contains the IaC (infrastructure as code) for the Terraform workshop for HoGent during the Tech & Trend days (February 16, 2023).
+This repository contains the IaC (infrastructure as code) for the Terraform workshop for HoGent during the Tech & Trend days (February 12, 2025).
 
 ## Goal of this workshop
 
-The goal of this workshop is to deploy an immutable (*not possible to change after creation*) webserver. We will have a first hands-on with Terraform and run some basic commands. We will use Google Cloud as cloud provider to apply this infrastructure.
+The goal of this workshop is to deploy a Cloud Run service on Google Cloud using Terraform. We will write the infrastructure as code and run Terraform to deploy the infrastructure on Google Cloud.
 
 ## Prerequisites
 
