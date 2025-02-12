@@ -2,6 +2,8 @@ resource "google_cloud_run_v2_service" "this" {
   name     = "${var.service_name}-${var.student_number}"
   location = var.region
 
+  deletion_protection = false
+
   template {
     containers {
       image = var.docker_image_name
