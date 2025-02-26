@@ -9,6 +9,6 @@ terraform {
 
 provider "google" {
   region  = "europe-west1"
-  zone    = "europe-west1-b"
-  project = "terraform-workshop-hogent"
+  zone    = "europe-west1-c"
+  project = "itp-vives-demo"
 }
